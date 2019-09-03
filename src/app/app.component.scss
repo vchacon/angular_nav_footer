@@ -1,0 +1,16 @@
+.dashboard {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  // justify-content: flex-end;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.header, .main, .footer {
+
+    flex-shrink: 0;
+}
