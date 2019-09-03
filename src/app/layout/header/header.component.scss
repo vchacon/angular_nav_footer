@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color:rgba(34, 69, 97, 1);
+  color: white;
+  padding: 20px 5%;
+}
+
+
+.appImage {
+  margin-left: 0;
+  padding-left: 0;
+  cursor: pointer;
+}
+
+.logo {
+  margin-right: auto;
+  padding-left: 10px;
+  margin-left: 20px;
+}
+
+.cta {
+  color: white;
+  font-size: 16px;
+}
+
+.title {
+  padding-left: 10px;
+  font-size: 22px;
+}
