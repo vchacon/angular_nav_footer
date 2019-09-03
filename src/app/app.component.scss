@@ -2,11 +2,13 @@
   min-height: 100%;
   display: flex;
   flex-direction: column;
+  -ms-flex-direction: column;
   align-items: stretch;
   // justify-content: flex-end;
 }
 
 .main {
+  -ms-flex: 1;
   flex-grow: 1;
 }
 
