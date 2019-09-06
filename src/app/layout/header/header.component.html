@@ -6,11 +6,14 @@
     <fa-icon icon="user" size="2x"></fa-icon>
     <span class="title">Dashboard</span>
   </div>
-  <div class="logout">
-    <a class="cta" href="">
-      <span>Logout</span>
-      <fa-icon icon="caret-down"></fa-icon>
-    </a>
+
+  <div ngbDropdown class="header-btn">
+    <a class="btn header-btn" id="dropdownBasic1" ngbDropdownToggle>Logout</a>
+    <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+      <button ngbDropdownItem routerlink="\test">Action - 1</button>
+      <button ngbDropdownItem>Another Action</button>
+      <button ngbDropdownItem>Something else is here</button>
+    </div>
   </div>
 </div>
 
