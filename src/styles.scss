@@ -8,24 +8,10 @@
   margin: 0;
   padding: 0;
   font-size: 16px;
+  box-sizing: border-box;
  }
 
- html, body, app-root, .project {
-  width: 100%;
+ html, body, app-root, .page {
   height: 100%;
 }
 
-body {
-  overflow: scroll-y;
-  overflow-x: hidden;
-}
-
-//  app-root {
-//   min-height: 100%;
-//   display: flex;
-//   flex-direction: column;
-//   align-items: stretch;
-// }
-
-// .dropdown-menu{min-width:0;}
-// .dropdown-menu .dropdown-item{white-space:normal;}

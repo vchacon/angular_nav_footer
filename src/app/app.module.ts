@@ -12,11 +12,12 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { FooterComponent } from './layout/footer/footer.component';
 import { SubHeaderComponent } from './layout/sub-header/sub-header.component';
+import { SidebarComponent } from './layout/sidebar/sidebar.component';
 library.add(fas);
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,

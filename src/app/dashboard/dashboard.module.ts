@@ -13,6 +13,7 @@ import { FooterComponent } from './../layout/footer/footer.component';
 import { SubHeaderComponent } from './../layout/sub-header/sub-header.component';
 import { DashboardRoutingModule } from './dashboard-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { SidebarComponent } from '../layout/sidebar/sidebar.component';
 library.add(fas);
 
 @NgModule({
@@ -20,7 +21,8 @@ library.add(fas);
     DashboardComponent,
     HeaderComponent,
     FooterComponent,
-    SubHeaderComponent
+    SidebarComponent,
+    SubHeaderComponent,
   ],
   imports: [
     CommonModule,
